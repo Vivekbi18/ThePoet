@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1045004592847",
+    "project_id": "thepoet-463f5",
+    "storage_bucket": "thepoet-463f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045004592847:android:bde0bb24fc30bd5849f9ba",
+        "android_client_info": {
+          "package_name": "com.example.poet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDasRkXVa0bl1Q067fOKYXvDR7FyNLbWIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

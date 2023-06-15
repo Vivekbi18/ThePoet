@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Family"
+    android:weightSum="100"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:id="@+id/tv"
+            android:elevation="50dp"
+            android:background="@drawable/roundtext"
+            android:padding="20dp"
+            android:backgroundTint="@color/yellow">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="70"
+        android:weightSum="99"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="prev"
+            android:layout_weight="33"
+            android:layout_margin="10dp"
+            android:layout_gravity="top"
+            android:background="@drawable/cicular"
+            android:textStyle="bold"
+            android:elevation="50dp"
+            android:id="@+id/prev">
+
+        </Button>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="share"
+            android:layout_margin="10dp"
+            android:layout_weight="33"
+            android:layout_gravity="top"
+            android:background="@drawable/cicular"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/sharebtn"
+            android:elevation="50dp">
+
+        </Button>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="next"
+            android:layout_weight="33"
+            android:layout_margin="10dp"
+            android:layout_gravity="top"
+            android:background="@drawable/cicular"
+            android:textStyle="bold"
+            android:elevation="50dp"
+            android:id="@+id/next">
+
+        </Button>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

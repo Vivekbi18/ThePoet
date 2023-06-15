@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/settings"
+        android:title="Settings">
+    </item>
+
+    <item android:id="@+id/community"
+        android:title="Community">
+    </item>
+    <item android:id="@+id/share"
+        android:title="Share App">
+    </item>
+
+    <item android:id="@+id/rateus"
+        android:title="Contact us">
+    </item>
+    <item android:id="@+id/signout"
+        android:title="Sign out">
+    </item>
+
+    <item android:icon="@drawable/baseline_search_24"
+        android:title="search"
+        android:id="@+id/search"
+        app:showAsAction="always">
+
+    </item>
+</menu>
